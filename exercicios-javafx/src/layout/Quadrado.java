@@ -14,13 +14,13 @@ public class Quadrado extends Rectangle {
 	
 	//Construtores
 	public Quadrado() {
-		this(100, 100);
+		this(100);
 	}
-	public Quadrado(int largura, int altura) {
+	public Quadrado(int tamanho) {
 		
 		//Definir dimensoes
-		this.setHeight(altura);
-		this.setWidth(largura);
+		this.setHeight(tamanho);
+		this.setWidth(tamanho);
 		
 		//Definir cores
 		this.setFill(Color.web(cores[i]));
