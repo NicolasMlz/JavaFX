@@ -4,6 +4,7 @@ module exerciciosfx {
 	requires javafx.controls;
 	requires javafx.graphics;
 	requires javafx.fxml;
+	requires org.controlsfx.controls;
 	
 	/*
 	 * Necessita ser aberto para que o JavaFX consiga fazer as reflections
